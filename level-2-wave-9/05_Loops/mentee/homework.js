@@ -23,3 +23,12 @@
 
 // STEP 5: After finishing, try changing baseNumber to a new number
 //         and see the new table in the console.
+
+let baseNumber = 5;
+// let baseNumber = 3;
+console.log("--- Multiplication Table for 5 ---");
+
+for (let i = 1; i <= 10; i++) {
+  let result = baseNumber * i;
+  console.log(`${baseNumber} x ${i} = ${result}`);
+}
