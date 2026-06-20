@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!---   REQUIREMENT 1: NAVIGATION
+        Same nav on every page. Active link is "About" on this page-->
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="The Source Climbing Center">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="https://waiver.smartwaiver.com/w/590d1d321a80c/web/" target="_blank" class="release-btn">READ & SIGN RELEASE</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Page Header with background -->
+  <section class="page-header about-hero">
+    <div class="container">
+      <h1>FIRST <span>VISIT</span></h1>
+      <p class="subtitle">We are open to the public all regular hours. Start climbing today with 3 easy steps...</p>
+    </div>
+  </section>
+
+  <!-- BE INFORMED-->
+  
+  <section class="about-section alt-bg"> 
+    <!-- alt background because it will be a photo. -->
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">BE <span>INFORMED</span></h2>
+          <p><em>Every visitor, including those not climbing, must check in before entering the facility.</em></p>
+          <p>Plan a few extra minutes on your first visit to complete your <a href="https://waiver.smartwaiver.com/w/590d1d321a80c/web/" target="_blank" class="white-link">Participant Agreement</a> and Orientation.</p>
+          <p>We want everyone entering the facility (climbers, supervisors, adults, spectators) to be fully informed of the risks. We will also provide an orientation to all first-time visitors. From the newest climber to the most experienced professional, we want to make sure you are familiar with everything our facility has to offer!</p>
+          <p class="important"><strong>IMPORTANT: </strong>Climbers under 18 must have their parent read and sign the release. If the parent or gaurdian will not be present at check-in, please bring a picture or photocopy of the parent's photo ID for signature verification.</p> 
+          <a href="https://waiver.smartwaiver.com/w/590d1d321a80c/web/" target="_blank" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="about-image-wrap">
+          <img src="images/shoe_rental.jpg" alt="Staff handing climbing shoes at the front desk">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHOOSE PRODUCT -->
+
+  <section class="about-section dark-bg">
+    <!-- Dark bacground -- will it automatically apply for rest of page? -->
+    <div class="container">
+      <div class="about-grid reverse">
+        <div class="about-image-wrap">
+          <img src="images/orientation.jpg" alt="Instructor teaching rope technique at The Source">
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">CHOOSE <span>PRODUCT</span></h2>
+          <p>Individual passes are available for walk-ins, classes for those ready to learn, and memberships for regular climbers. Reservations are required only for groups 7 or more.</p>
+          <p>Many start climbing with a class or single <strong>Day Pass</strong>. From there, the more you climb, the more you will save. Our <strong>10-punch pass</strong> is a great option for returning visitors. <strong>Membership</strong> is the best option if you plan to continue climbing once a week or more.</p>
+        
+          <p><strong>BEST TIME TO CLIMB</strong></p>
+          <p>Peak times change thoughout the year. Still, there are a few regular program times you may want to avoid for faster check-in. For example, the mezzanine is unavailable during birthday parties on Saturdays from 3:30-5pm and Sundays from 1-3 pm, and after-school programs from 4:30-6:30 Mondays through Fridays during the school year.</p>
+       
+        <a href="contact.html" class="btn btn-primary">View Rates</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIMB SMART -->
+
+  <section class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">CLIMB <span>SMART</span></h2>
+          <p>As you choose from the available bouldering, top ropes and autobelays, and lead climbing; remember these four simple points of the Climbing Wall Association's <a href="https://www.cwapro.org/climbsmart" target="_blank" class="text-link">ClimbSmart!®</a> program:</p>
+          <ul class="climbsmart-list">
+            <li>Climbing is Dangerous</li>
+            <li>Qualified Instruction Is Required</li>
+            <li>Use Equipment According to the Manufacturer's Instructions</li>
+            <li>Your Safety is Your Responsibility</li>
+          </ul>
+          <p>Make sure to ask for a <strong>Belay Check</strong> before using any equipment for top rope or lead climbing. All visitors must use an approved ABD (Assisted Braking Device) type belay device when belaying another climber. You will be required to demonstrate proper equipment use for a staff member. Need a refresher? Check out our classes.</p>
+          <a href="contact.html" class="btn btn-primary">View Classes</a>
+        </div>
+        <div class="about-image-wrap">
+          <img src="images/father_son.jpg" alt="Father and son putting on climbing shoes at The Source">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--- GROUP RESERVATIONS + MAP + FAQ -->
+
+  <section class="about-section dark-bg">
+    <div class="container">
+
+      <!-- Group Reservations -->
+      <div class="group-reservations">
+        <h2 class="section-title">GROUP <span>RESERVATIONS</span></h2>
+        <p><em>Reservations are needed for groups of 7 or more.</em></p>
+        <p>Reservations can only be made during off-peak hours and generally require 2-weeks notice. We will help you get the most out of your visit with hired staff to help with check-in, orientations and belaying.</p>
+        <p class="important"><strong>IMPORTANT:</strong> The Source is unable to accommodate groups of 7 or more without a reservation. Groups of 7 or more might be turned away during peak hours. Calling ahead or booking online is crucial to avoid being denied entry.</p>
+        <p>Call us at <a href="tel:360-694-9096" class="text-link">360-694-9096</a> for pricing and scheduling.</p>
+      </div>
+
+      <!-- Map -->
+      <div class="map-section">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89287.61044611297!2d-122.73481273431048!3d45.62595844569541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495a8b6bad7b041%3A0xe212e3accbd7ab57!2sSource%20Climbing%20Center!5e0!3m2!1sen!2sus!4v1781832672460!5m2!1sen!2sus" 
+     width="100%"
+          height="400"
+          style="border:0; border-radius: 8px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="The Source Climbing Center Location"
+        ></iframe>
+      </div>
+
+      <!-- FAQ -->
+      <div class="faq-grid">
+        <div class="faq-card">
+          <h3>When is the best time to climb?</h3>
+          <div class="faq-line"></div>
+          <p>Busy times change throughout the year. Still, there are a few regular program times you may want to avoid for faster check-in... For example, the mezzanine is unavailable during birthday parties on Saturdays 3:30-5pm and Sundays from 1-3pm, and after-school programs from 4:30-6:30 Mondays through Fridays.</p>
+        </div>
+        <div class="faq-card">
+          <h3>How old do you have to be to to climb?</h3>
+          <div class="faq-line"></div>
+          <p>We recommend climbers be at least 4-6 years of age. Plan for adequate supervision. We recommend at least one adult (over 18) for every 3 climbers under 12. Climbers must be 14 years or older to climb without an adult present.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="The Source Climbing Center" class="footer-logo">
+          <p>ALL ARE CLIMBERS HERE.</p>
+        </div>
+        <div class="footer-col">
+          <h4>FIND US</h4>
+          <a href="tel:360-694-9096">360-694-9096</a>
+          <a href="mailto:info@sourceclimbing.com">info@sourceclimbing.com</a>
+          <p>1118 Main Street<br>Vancouver, WA 98660</p>
+        </div>
+        <div class="footer-col">
+          <h4>CLIMB WITH US</h4>
+          <p>Mon, Wed, Fri: 9am-10pm</p>
+          <p>Tue, Thu: 6am-10pm</p>
+          <p>Saturday: 9am-9pm</p>
+          <p>Sunday: 9am-6pm</p>
+        </div>
+        <div class="footer-col">
+          <h4>CONNECT</h4>
+          <div class="social">
+            <!-- <svg> elements inside each link create the icons-->
+            <!-- <a href="domain" makes the icon clickable-->
+            <!-- aria-label="Facebook" tells screen readers what the icon means, since there is no visible text-->
+            <!-- <path> = actual icon shape-->
+            <!-- You are not loading image files. The icons are being drawn directly in the browser using SVG code-->
+            <a href="https://facebook.com/sourceclimbing" target="_blank" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="https://instagram.com/source.climbing" target="_blank" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2025 The Source Climbing Center. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
